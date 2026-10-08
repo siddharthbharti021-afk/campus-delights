@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep campus background motion in a dedicated presentation component and the canteen in a separate SVG scene; this isolates decorative animation from page content.
+- Use CSS media queries and a live reduced-motion listener to stop both CSS and pointer-driven animation; accessibility preferences apply immediately.
