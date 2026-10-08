@@ -157,6 +157,12 @@ h2 { font-family: var(--font-display); font-size: 36px; line-height: 1.24; font-
   .page-width { width: calc(100% - 40px); }.site-header { height: 85px; }.wordmark { font-size: 14px; }.brand-symbol { width: 30px; height: 34px; }.site-header nav { gap: 14px; }.nav-link { display: none; }.nav-cta { font-size: 10px; padding-inline: 10px; height: 35px; }
   .campus-hero { padding-block: 49px 30px; }h1 { font-size: 39px; line-height: 1.19; margin-top: 23px; }.hero-eyebrow { font-size: 8px; letter-spacing: 1.3px; }.campus-hero > p { font-size: 13px; line-height: 1.8; max-width: 310px; margin-inline: auto; }.hero-actions { flex-direction: column; gap: 17px; margin-top: 23px; }.hero-footnote { font-size: 9px; gap: 8px; }.doodle-star { left: -4px; top: 28%; font-size: 27px; }.doodle-plane { width: 52px; right: -3px; top: 49%; }.scroll-cue { margin-top: 23px; }.canteen-section { padding-top: 30px; }h2 { font-size: 28px; }.section-eyebrow { font-size: 8px; letter-spacing: 1.4px; }.section-heading { margin-top: 12px; }.section-heading p { font-size: 11px; line-height: 1.7; max-width: 270px; }.scene-note { display: none; }.canteen-art { aspect-ratio: 1.25; margin-top: 17px; }.canteen-art > svg { width: 190%; max-width: none; transform: translateX(-22%); }.student-controls { width: 190%; left: -41.8%; }.scene-caption { flex-wrap: wrap; gap: 9px; font-size: 8px; padding-block: 14px; }.scene-caption > span:last-child { display: none; }.together-section { padding-block: 35px; gap: 14px; flex-wrap: wrap; }.together-icon { width: 40px; height: 40px; }.together-section > div:nth-child(2) { flex: 1; }.together-section h2 { font-size: 19px; }.together-section p { font-size: 11px; line-height: 1.7; }.together-section > a { margin-left: 54px; }.site-footer { font-size: 9px; gap: 20px; align-items: flex-start; }.site-footer > span:last-child { max-width: 160px; text-align: right; }.orb { width: 600px; height: 600px; filter: blur(55px); }.orb-green { left: -420px; }.orb-blue { right: -420px; }
 }
+@media (max-width: 700px) {
+  .doodle-plane { display: none; }
+  .canteen-art { aspect-ratio: 1120 / 440; }
+  .canteen-art > svg { width: 100%; transform: none; }
+  .student-controls { width: 100%; left: 0; }
+}
 @media (max-width: 360px) { h1 { font-size: 33px; }.hero-doodle { display: none; }.nav-cta { font-size: 9px; }.wordmark { font-size: 12px; } }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
